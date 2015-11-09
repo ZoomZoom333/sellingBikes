@@ -1,0 +1,48 @@
+body {
+	background-color: gray;
+}
+
+#mainBox {
+	
+	border: 4px solid white;
+	border-radius: 3px;
+	background-color: white;
+	margin: 200px 75px 200px;
+	min-height: 500px;
+	position: relative;
+	z-index: -1px;
+	
+}
+#main {
+	background-size: 100%;
+	-webkit-filter: sepia(45%);
+	-webkit-filter: blur(3px);
+	-filter: blur(3px);
+}
+#choose {
+	text-align: center;
+	color: black;
+	font-size: 3em;
+	font-weight: bold;
+	position: absolute;
+	top: 100px;
+	width: 100%;
+	margin: 0 auto;
+	height: 50px;
+
+}
+#navBar {
+	text-align: center;
+	color: black;
+	font-size: 2em;
+	font-weight: bold;
+	position: absolute;
+	top: 420px;
+	width: 100%;
+	margin: 0 auto;
+
+}
+a {
+	text-decoration: none;
+}
+}
