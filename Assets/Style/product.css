@@ -45,4 +45,39 @@ body {
 a {
 	text-decoration: none;
 }
+.library {
+	width: auto;
+	height: auto;
+	display: block;
+
+}
+#bikeWindow {
+	display: hidden;
+
+
+}
+#oneMount img {
+	width: 205px;
+	height: 200px;
+	padding: 3px;
+	float: right;
+}
+#twoRiding img {
+	width: 205px;
+	height: 200px;
+	padding: 3px;
+	float: right;
+
+}
+#threeBmx img {
+	width: 205px;
+	height: 200px;
+	padding: 3px;
+	float: right;
+}
+#fourBeachcruiser img {
+	width: 205px;
+	height: 200px;
+	padding: 3px;
+	float: right;tl
 }
