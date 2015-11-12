@@ -1,13 +1,28 @@
 body {
 	background-color: gray;
 }
+#divider {
+	width: 100%;
+	height: 30px;
+	border-bottom: 2px solid black;
+	margin: 0;
+	padding: none;
+}
 
+div .contact {
+	display: block;
+	float: left;
+	margin: 0;
+	border: 2px black;
+	padding: 5px;
+
+}
 #mainBox {
 	
 	border: 4px solid white;
 	border-radius: 3px;
 	background-color: white;
-	margin: 200px 75px 200px;
+	margin: 100px 75px 200px;
 	min-height: 500px;
 	position: relative;
 	z-index: -1px;
@@ -19,7 +34,8 @@ body {
 	-webkit-filter: blur(3px);
 	-filter: blur(3px);
 }
-#choose {
+
+#Choose {
 	text-align: center;
 	color: black;
 	font-size: 3em;
@@ -44,6 +60,7 @@ body {
 }
 a {
 	text-decoration: none;
+	color: purple;
 }
 .library {
 	width: auto;
@@ -51,22 +68,22 @@ a {
 	display: block;
 
 }
-#bikeWindow {
-	display: hidden;
 
-
-}
 #oneMount img {
 	width: 205px;
 	height: 200px;
 	padding: 3px;
 	float: right;
+	margin-left: 0;
+	display: none;
 }
 #twoRiding img {
 	width: 205px;
 	height: 200px;
 	padding: 3px;
 	float: right;
+	margin-left: 0;
+	display: none;
 
 }
 #threeBmx img {
@@ -74,10 +91,14 @@ a {
 	height: 200px;
 	padding: 3px;
 	float: right;
+	margin-left: 0;
+	display: none;
 }
 #fourBeachcruiser img {
 	width: 205px;
 	height: 200px;
 	padding: 3px;
-	float: right;tl
+	float: right;
+	margin-left: 0;
+	display: none;
 }
