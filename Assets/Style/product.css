@@ -10,8 +10,8 @@ body {
 }
 
 div .contact {
-	display: block;
-	float: left;
+	display: inline-block;
+	float: right;
 	margin: 0;
 	border: 2px black;
 	padding: 5px;
@@ -22,7 +22,7 @@ div .contact {
 	border: 4px solid white;
 	border-radius: 3px;
 	background-color: white;
-	margin: 100px 75px 200px;
+	margin: 100px 75px 100px;
 	min-height: 500px;
 	position: relative;
 	z-index: -1px;
@@ -62,23 +62,25 @@ a {
 	text-decoration: none;
 	color: purple;
 }
-.library {
-	width: auto;
-	height: auto;
+img .magnify { 
+
+	width: 220px;
+	height: 200px;
+	float: right;
 	display: block;
-
 }
 
-#oneMount img {
-	width: 205px;
+
+#oneMount {
+	width: auto;
 	height: 200px;
 	padding: 3px;
 	float: right;
 	margin-left: 0;
 	display: none;
 }
-#twoRiding img {
-	width: 205px;
+#twoRiding {
+	width: auto;
 	height: 200px;
 	padding: 3px;
 	float: right;
@@ -86,16 +88,16 @@ a {
 	display: none;
 
 }
-#threeBmx img {
-	width: 205px;
+#threeBmx {
+	width: auto;
 	height: 200px;
 	padding: 3px;
 	float: right;
 	margin-left: 0;
 	display: none;
 }
-#fourBeachcruiser img {
-	width: 205px;
+#fourBeachcruiser {
+	width: auto;
 	height: 200px;
 	padding: 3px;
 	float: right;
