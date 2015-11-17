@@ -12,7 +12,7 @@ $(document).ready(function() {
 		$("#fourBeachcruiser").toggle();
 	});
 	$("img.magnify").mouseenter(function() {
-	 	$(this).css({ width: '320', height: '300px' });
+	 	$(this).css({ width: '320', height: '300px'});
 	});
 	$("img.magnify").mouseleave(function() {
 		$(this).css({width: '200', height: '200'});
@@ -20,4 +20,7 @@ $(document).ready(function() {
 	/*document.getElementById("mountain").onclick = function() {
 		$("div").find("#oneMount").show();
 	};*/
+	$("#oneMount").click(function() {
+		$('img').scroll();
+	});
 });
